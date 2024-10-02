@@ -59,7 +59,7 @@
 
 
           <!-- two btn here -->
-        <div id="history_and_donation_container" class=" mt-5 flex gap-5 justify-center items-center ">
+        <div id="history_and_donation_container" class=" mt-8 flex gap-5 justify-center items-center ">
              
             <button id="donation-btn" class="btn bg-clifford hover:bg-clifford font-bold ">Donation</button>
             <button id="history-btn" class=" btn  ">History</button>
@@ -68,15 +68,93 @@
           <!-- two btn end -->
 
     </header>
-
     <main>
 
+       <!-- 3 cards starts from here -->
+        <div id="three-card-container" class="container mx-auto p-4 mt-40 grid  grid-rows-3">
 
+            <!-- Card 1 -->
+            <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+              <div class="flex flex-col sm:flex-row items-start">
+                <img src="./assets/noakhali.png" alt="Flood in Noakhali" class="w-full sm:w-1/3 rounded-lg mb-4 sm:mb-0">
+                <div class="ml-4 w-2/3">
+                  <div class="flex items-center mb-5">
+                    <img src="./assets/coin.png" alt="coin icon" class="w-6 h-6">
+                    <span id="frist_amount_donation" class="font-medium text-coincolor"> 300 </span><span>  BDT</span>
+                  </div>
+                  <h3 class="text-lg font-bold">Donate for Flood at Noakhali, Bangladesh</h3>
+                  <p class="text-gray-600 text-sm mt-4 sm:mt-10">
+                    Noakhali division face severe flooding due to activemonsoons and significant rainfall, leading to rising rivers and worsening
+                    flood conditions in 11 districts. Major rivers in the southeast, including Gomti, Muhuri, and Halda, have risen significantly, with some flowing
+                    well above danger levels, exacerbating the flood situation.About 5 million people, including 2 million children, have been affected, with many stranded without food and relief. 20 deaths2 have
+                    been reported, and 284,888 people have sought refuge in 3,527 shelters, with rescue operations ongoing by government personnel and
+                    volunteers, though some areas remain inaccessible
+                  </p>
+                  <input id="input-donate-btn1" type="text" placeholder="Write Donation Amount" class="mt-10 p-2 w-full border border-gray-300 rounded-lg">
+                  <button id="donate_btn-1" class="text-black font-bold py-2 px-4 mt-5 rounded-lg w-full hover:bg-clifford bg-clifford">Donate Now</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+              <div class="flex flex-col sm:flex-row items-start">
+                <img src="./assets/feni.png" alt="Flood in Noakhali" class="w-full sm:w-1/3 rounded-lg mb-4 sm:mb-0">
+                <div class="ml-4 w-2/3">
+                  <div class="flex items-center mb-5">
+                    <img src="./assets/coin.png" alt="coin icon" class="w-6 h-6">
+                    <span id="second_amount_donation" class="font-medium text-coincolor"> 50 </span><span>  BDT</span>
+                  </div>
+                  <h3 class="text-lg font-bold">Donate for Flood Relief in Feni,Bangladesh</h3>
+                  <p class="text-gray-600 text-sm mt-10">
+                    Significant flooding is currently being experienced
+                    in several parts of northeastern and southeastern
+                    Bangladesh, triggered by heavy rainfall linked to
+                    an active monsoon and a low-pressure area, as
+                    reported by the Bangladesh Meteorological
+                    Department (BMD). Since August 17th
+                    , substantial
+                    rainfall has been recorded in various regions,
+                    including 190 mm in Cumilla, 188 mm in
+                    Ramgarh (Khagrachhari), 86 mm in Jafflong,
+                    and 47 mm in Parshuram (Feni). This persistent
+                    rainfall, compounded by water inflows from
+                    upstream sources, has led to rivers such as the
+                    Kushiyara, Manu, Khowai, Gumti, and Feni
+                    exceeding danger levels. Consequently, severe
+                    flooding has engulfed low-lying areas across
+                    multiple districts.
+                    
+                  </p>
+                  <input id="input_donate_btn2" type="text" placeholder="Write Donation Amount" class="mt-10 p-2 w-full border border-gray-300 rounded-lg">
+                  <button id="donate_btn-2" class="text-black font-bold py-2 px-4 mt-5 rounded-lg w-full hover:bg-clifford bg-clifford">Donate Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+              <div class="flex flex-col sm:flex-row items-start">
+                <img src="./assets/quota-protest.png" alt="Flood in Noakhali" class="w-full sm:w-1/3 rounded-lg mb-4 sm:mb-0">
+                <div class="ml-4 w-2/3">
+                  <div class="flex items-center mb-5">
+                    <img src="./assets/coin.png" alt="coin icon" class="w-6 h-6">
+                    <span id="third_amount_donation" class="font-medium text-coincolor"> 10 </span><span>  BDT</span>
+                  </div>
+                  <h3 class="text-lg font-bold">Aid for Injured in the Quota Movement</h3>
+                  <p class="text-gray-600 text-sm mt-10">
+                    The 2024 Bangladesh quota reform movement, also known as the July Revolution,[d] was a series of anti-government[e] and pro-democracy[f] protests in Bangladesh, spearheaded primarily by university students. Initially focused on restructuring quota-based systems for government job recruitment, the movement expanded against what many perceive as an authoritarian government when they carried out the July massacre of protestors and civilians, most of whom were students.[g]
 
-
+                   The protest began in June 2024, in response to the Supreme Court of Bangladesh reinstating a 30% quota for descendants of freedom fighters, reversing the government decision made in response to the 2018 Bangladesh quota reform movement.
+                  </p>
+                  <input id="input_donate_btn3" type="text" placeholder="Write Donation Amount" class="mt-10 p-2 w-full border border-gray-300 rounded-lg">
+                  <button id="donate_btn-3" class="text-black font-bold py-2 px-4 mt-5 rounded-lg w-full hover:bg-clifford bg-clifford">Donate Now</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!-- 3 card ends here -->
     </main>
 
-    <footer>
+    <footer class="bg-navback h-20">
 
 
 
