@@ -22,6 +22,14 @@ document.getElementById('first-donate-box-btn').addEventListener('click',()=>{
 
     document.getElementById('frist_amount_donation').innerText=updateDonation;
     document.getElementById('my_balance').innerText=mainBlancesAdd;
+
+
+
+    document.getElementById("model-container").classList.remove("hidden");
+
+    document.getElementById("close-btn").addEventListener("click", function() {
+        document.getElementById("model-container").classList.add("hidden");
+      });
 })
 
 // ----------- 2 ----------------------
@@ -50,6 +58,13 @@ document.getElementById('second-donate-box-btn').addEventListener('click',()=>{
 
     document.getElementById('second_amount_donation').innerText=updateDonation;
     document.getElementById('my_balance').innerText=mainBlancesAdd;
+
+
+    document.getElementById("model-container").classList.remove("hidden");
+
+    document.getElementById("close-btn").addEventListener("click", function() {
+        document.getElementById("model-container").classList.add("hidden");
+      });
 })
 
 // --------------------- 3 ---------------------------------
@@ -77,7 +92,17 @@ document.getElementById('third_donate-box-btn').addEventListener('click',()=>{
 
     document.getElementById('third_amount_donation').innerText=updateDonation;
     document.getElementById('my_balance').innerText=mainBlancesAdd;
+
+
+
+    document.getElementById("model-container").classList.remove("hidden");
+
+    document.getElementById("close-btn").addEventListener("click", function() {
+        document.getElementById("model-container").classList.add("hidden");
+      });
 })
+
+
 
 
 
