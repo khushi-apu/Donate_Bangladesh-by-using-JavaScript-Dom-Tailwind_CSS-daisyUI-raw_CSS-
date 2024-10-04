@@ -73,6 +73,17 @@ document.getElementById('second-donate-box-btn').addEventListener('click',()=>{
     document.getElementById('second_amount_donation').innerText=updateDonation;
     document.getElementById('my_balance').innerText=mainBlancesAdd;
 
+    const history=document.createElement('div')
+    history.className='p-3  bg-white rounded-md w-3/5 h-40 border-2 bg-white border'
+
+    history.innerHTML=`
+    <p>${inputField} Taka is Donated for famine-2024 at Feni, Bangladesh </p>
+    <p>${new Date().toLocaleDateString()}</p>
+  `
+    const mainHistory=document.getElementById('history-div')
+    mainHistory.insertBefore(history,mainHistory.firstChild)
+
+
 
     document.getElementById("model-container").classList.remove("hidden");
 
@@ -106,6 +117,17 @@ document.getElementById('third_donate-box-btn').addEventListener('click',()=>{
 
     document.getElementById('third_amount_donation').innerText=updateDonation;
     document.getElementById('my_balance').innerText=mainBlancesAdd;
+
+    const history=document.createElement('div')
+    history.className='p-3  bg-white rounded-md w-3/5 h-40 border-2 bg-white border'
+
+    history.innerHTML=`
+    <p>${inputField} Taka is Donated for famine-2024 at Feni, Bangladesh </p>
+    <p>${new Date().toLocaleDateString()}</p>
+  `
+    const mainHistory=document.getElementById('history-div')
+    mainHistory.insertBefore(history,mainHistory.firstChild)
+
 
 
 

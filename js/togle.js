@@ -1,31 +1,37 @@
 document.getElementById('donation-btn').addEventListener('click',()=>{
-    
-    console.log('ok done')
+  document.getElementById('history-container').classList.add('hidden');
+  document.getElementById('three-card-container').classList.remove('hidden')
 
-    document.getElementById('history-btn').classList.add(
+    console.log('donation btn')
+
+    document.getElementById('history-btn').classList.remove(
         "bg-clifford",
         "text-white",
          "hover:bg-clifford"
   )
 
-  document.getElementById('donation-btn').classList.remove(
+  document.getElementById('donation-btn').classList.add(
     "bg-clifford",
     "text-white",
      "hover:bg-clifford"
 )
 
+
 })
 document.getElementById('history-btn').addEventListener('click',()=>{
-    
-    console.log('ok done')
+  document.getElementById('history-container').classList.remove('hidden');
+  document.getElementById('three-card-container').classList.add('hidden')
 
-    document.getElementById('donation-btn').classList.add(
+
+    console.log('history btn')
+
+    document.getElementById('donation-btn').classList.remove(
         "bg-clifford",
         "text-white",
          "hover:bg-clifford"
   )
 
-  document.getElementById('history-btn').classList.remove(
+  document.getElementById('history-btn').classList.add(
     "bg-clifford",
     "text-white",
      "hover:bg-clifford"

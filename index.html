@@ -193,6 +193,110 @@
             </div>
           
           </div>
+
+
+          <!-- blogs -->
+          <div id="blog-container" class="space-y-4 w-3/4 hidden mt-40">
+            <div class="flex justify-start gap-2">
+
+            <h1 class="text-6xl items-center">Important FQA</h1>
+              <img width="100" height="100" src="https://img.icons8.com/bubbles/100/chat.png" alt="chat"/>
+            </div>
+            <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+              >
+              
+                <h2 class="font-medium">What is the Document Object Model (DOM)?</h2>
+          
+                <svg
+                  class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+          
+              <p class="mt-4 px-4 leading-relaxed text-gray-700">
+                The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.With the Document Object Model, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content. Anything found in an HTML or XML document can be accessed, changed, deleted, or added using the Document Object Model, with a few exceptions - in particular, the DOM interfaces for the internal subset and external subset have not yet been specified.
+
+              </p>
+            </details>
+            <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+              >
+                <h2 class="font-medium">How do you select an element from the DOM?</h2>
+          
+                <svg
+                  class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+          
+              <p class="mt-4 px-4 leading-relaxed text-gray-700">
+                Selecting an element from the DOM involves using methods provided by JavaScript to target and retrieve elements based on specific criteria such as ID, class, tag name, or CSS selectors. Depending on the selection method used, you can either retrieve a single element or multiple elements that match the criteria. Some methods return a live collection of elements that updates if the DOM changes, while others return a static collection. By using these methods, you can access elements and manipulate their properties, attributes, styles, or content, enabling dynamic interaction and updates to the web page.
+
+              </p>
+            </details>
+            <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+              >
+                <h2 class="font-medium">What is event delegation in the context of the DOM, and why is it useful?</h2>
+          
+                <svg
+                  class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+          
+              <p class="mt-4 px-4 leading-relaxed text-gray-700">
+                Event delegation is a technique in the DOM where a single event listener is attached to a parent element to manage events triggered by its child elements. Instead of adding individual event listeners to each child element, the parent element listens for events that bubble up from its children. This is possible because of event propagation, specifically event bubbling, where an event triggered on a child element bubbles up through the DOM hierarchy, reaching its ancestors.
+                Event delegation is useful because it improves performance by reducing the number of event listeners, especially when handling a large number of child elements.
+
+
+              </p>
+            </details>
+            <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+              >
+                <h2 class="font-medium">How do you manipulate an element's attributes and styles using the DOM?</h2>
+          
+                <svg
+                  class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+          
+              <p class="mt-4 px-4 leading-relaxed text-gray-700">
+                
+                Manipulating an element's attributes and styles in the DOM involves interacting with an element's properties to dynamically change its behavior and appearance. For attributes, JavaScript allows you to retrieve, set, or remove attributes from elements. By modifying an element’s attributes, you can adjust properties such as src for images, href for links, or custom data-* attributes used for storing extra information.
+                For styles, you can modify an element's inline styles directly using the style property, allowing you to set or change specific CSS properties like color, font size, or margins.
+              </p>
+            </details>
+          
+            
+          </div>
          
           
     </main>
@@ -202,6 +306,7 @@
 
 
     </footer>
+    <script src="./js/side-btn.js"></script>
     <script src="./js/togle.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/utilities.js"></script>
