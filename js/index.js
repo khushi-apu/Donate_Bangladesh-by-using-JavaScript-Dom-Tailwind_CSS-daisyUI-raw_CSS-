@@ -25,11 +25,25 @@ document.getElementById('first-donate-box-btn').addEventListener('click',()=>{
 
 
 
+    const history=document.createElement('div')
+    history.className='p-3  bg-white rounded-md w-3/5 h-40 border-2 bg-white border'
+
+    history.innerHTML=`
+    <p>${inputField} Taka is Donated for famine-2024 at Feni, Bangladesh </p>
+    <p>${new Date().toLocaleDateString()}</p>
+  `
+    const mainHistory=document.getElementById('history-div')
+    mainHistory.insertBefore(history,mainHistory.firstChild)
+
+
+
+
     document.getElementById("model-container").classList.remove("hidden");
 
     document.getElementById("close-btn").addEventListener("click", function() {
         document.getElementById("model-container").classList.add("hidden");
       });
+
 })
 
 // ----------- 2 ----------------------
